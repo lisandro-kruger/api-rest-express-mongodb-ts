@@ -30,11 +30,11 @@ export class Server{
   routes(){
     this.app.get('/', (req, res)=>{
       res.status(200).json({
-        name:'API REST TASK'
+        name:'API REST TAREAS'
       })
     });
 
-    this.app.use('/api/task', routes.TaskRoute);
+    this.app.use('/api/tareas', routes.TaskRoute);
   }
 
   listen(){
