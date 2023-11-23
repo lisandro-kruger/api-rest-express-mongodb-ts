@@ -1,4 +1,4 @@
-### API REST TASK
+### API REST TAREAS
 Este proyecto es una API REST para la gestión de tareas. Utiliza Node.js, Express, MongoDB y Mongoose.
 
 ### Configuración 
